@@ -1,13 +1,12 @@
 // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyCiiYxtjMuC1FX-fD_t6hnNCWX4R9NgbFY",
-    authDomain: "fir-train-scheduler-b254f.firebaseapp.com",
-    databaseURL: "https://fir-train-scheduler-b254f.firebaseio.com",
-    projectId: "fir-train-scheduler-b254f",
-    storageBucket: "",
-    messagingSenderId: "516634406268"
-  };
-  firebase.initializeApp(config);
+var config = {
+  apiKey: "AIzaSyC0PsdA3V5Wa2X_uayYCE6mnS7EJeBOhWk",
+  authDomain: "train-scheduler-4eada.firebaseapp.com",
+  databaseURL: "https://train-scheduler-4eada.firebaseio.com",
+  storageBucket: "train-scheduler-4eada.appspot.com",
+  messagingSenderId: "792707784329"
+};
+firebase.initializeApp(config);
 
 var database = firebase.database();
 
@@ -153,4 +152,5 @@ $("#add-train").on("click", function() {
   });
 
   console.log(trainIDs);
+
 
